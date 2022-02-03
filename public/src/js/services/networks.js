@@ -2,10 +2,10 @@
 
 angular.module('insight.networks')
 	.factory('Networks',
-		function(Constants, QtumCoreLib) {
+		function(Constants, QtepCoreLib) {
 			return {
 				getCurrentNetwork: function () {
-					return QtumCoreLib.Networks.get(Constants.NETWORK);
+					return QtepCoreLib.Networks.get(Constants.NETWORK);
 				}
 			}
 		});

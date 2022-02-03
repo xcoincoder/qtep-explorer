@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('insight.qtumcorelib').factory('QtumCoreLib',
+angular.module('insight.qtepcorelib').factory('QtepCoreLib',
     function() {
-        var QtumCoreLib = require('qtumcore-lib');
-        return QtumCoreLib;
+        var QtepCoreLib = require('qtepcore-lib');
+        return QtepCoreLib;
     });
 
